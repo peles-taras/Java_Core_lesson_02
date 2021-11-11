@@ -11,8 +11,8 @@ public class Rectangle {
 	}
 
 	Rectangle(int width, int height) {
-		this.width = 15;
-		this.height = 11;
+		this.width = width;
+		this.height = height;
 	}
 
 	public int areacalc() {
@@ -34,8 +34,16 @@ public class Rectangle {
 		return width;
 	}
 
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
 	public int getHeight() {
 		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
 	}
 
 }
